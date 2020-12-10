@@ -1,0 +1,14 @@
+{
+    "train_dataset_params": {
+        "dataset_name": "wikitext",
+        "loader_params": {
+            "batch_size": 5000,
+            "vocab_size": 64000
+        }
+    },
+    "hyper_params": {
+        "model_name": "skip-gram word2vec",
+        "epochs": 5,
+        "learning_rate": 2e-3
+    }
+}
